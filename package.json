@@ -1,0 +1,35 @@
+{
+  "name": "hubot-hello-world",
+  "description": "A Hubot script that responds 'World!'",
+  "version": "0.0.0",
+  "author": "bouzuya <m@bouzuya.net>",
+  "license": "MIT",
+  "keywords": "hubot, hubot-scripts",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hubot-scripts/hubot-hello-world.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hubot-scripts/hubot-hello-world/issues"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "hubot": "2.x"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "coffee-script": "1.6.3",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-mocha-test": "~0.7.0",
+    "grunt-release": "~0.6.0",
+    "hubot": "2.x",
+    "matchdep": "~0.1.2",
+    "mocha": "*",
+    "sinon": "*",
+    "sinon-chai": "*"
+  },
+  "main": "index.coffee",
+  "scripts": {
+    "test": "grunt test"
+  }
+}
