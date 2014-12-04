@@ -1,7 +1,7 @@
 {
   "name": "hubot-hello-world",
   "description": "A Hubot script that responds 'World!'",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "bouzuya <m@bouzuya.net>",
   "license": "MIT",
   "keywords": "hubot, hubot-scripts",
